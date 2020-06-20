@@ -1,0 +1,30 @@
+.gradient {
+    background: -webkit-linear-gradient(135deg, #8929AD, #436AAC, #43B7B8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fade:hover
+{
+        opacity:0.8;
+}
+.fade
+{
+        opacity:1;
+}
+
+@keyframes bounce {
+        40% {
+        transform: translateY(-20px);
+        opacity: 0.4;
+        }
+        60% {
+        transform: translateY(-10px);
+        opacity: 0.6;
+        }
+}
+
+.bounce {
+        animation: bounce 1.7s infinite;
+        -webkit-animation: bounce 1.7s infinite;    
+}
