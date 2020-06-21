@@ -1,3 +1,9 @@
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #top {
     background: #ffff;
     font-family: 'Roboto Mono', monospace;
@@ -48,4 +54,5 @@ h1 {
 
 #down {
     margin-top: 90vh;
+    z-index: 1;
 }
