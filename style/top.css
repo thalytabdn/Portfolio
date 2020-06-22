@@ -51,6 +51,7 @@ h1 {
     font-size: 35px;
     padding: 10px;
     margin: 0 auto;       
+    text-rendering: optimizeLegibility;
 }
 
 #down {
