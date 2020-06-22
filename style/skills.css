@@ -1,0 +1,18 @@
+.container .cards-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;    
+    padding: 20px 10px;
+}
+
+.card{    
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+}
