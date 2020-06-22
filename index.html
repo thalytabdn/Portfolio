@@ -152,7 +152,12 @@
         </div>
     </section>
 
-    <a title="Go to top" class="icon gradient fade" id="top-button" onclick="topFunction()">
+    <a title="Go to top"
+        class="icon gradient fade"
+        style="visibility: hidden;"
+        id="top-button"
+        onclick="topFunction()"
+    >
         <i class="fa fa-angle-double-up"></i>
     </a>
 
@@ -176,9 +181,9 @@
 
         function scrollFunction(){
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-                topButton.style.display = "block";
+                topButton.style.visibility = "visible";
             }else{
-                topButton.style.display = "none";
+                topButton.style.visibility = "hidden";
             }
         }
 
