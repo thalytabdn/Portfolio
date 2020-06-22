@@ -1,6 +1,6 @@
 .container .cards-main{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-column-gap: 10px;
     grid-row-gap: 1em;    
     padding: 20px 10px;
@@ -15,4 +15,9 @@
 
 .card:hover{
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+}
+
+.img-card{
+    height: 144px;
+    width: 144px;
 }
