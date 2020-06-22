@@ -57,3 +57,11 @@ h1 {
     margin-top: 90vh;
     z-index: 5;
 }
+
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}

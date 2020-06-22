@@ -152,6 +152,10 @@
         </div>
     </section>
 
+    <a title="Go to top" class="icon gradient fade" id="top-button" onclick="topFunction()">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+
     <footer class="footer container">
 
         <hr>
@@ -164,6 +168,26 @@
         </p>
 
     </footer>
+
+    <script>
+        topButton = document.getElementById("top-button");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                topButton.style.display = "block";
+            }else{
+                topButton.style.display = "none";
+            }
+        }
+
+        function topFunction(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
     
 </body>
 
