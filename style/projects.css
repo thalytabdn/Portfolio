@@ -1,0 +1,32 @@
+.project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    margin-block-start: 3em;   
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-gap: 5%;
+}
+
+.project-informations{
+    text-align: left;
+    
+}
+
+.project-img{
+    display: contents;
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
+}
+
+.project-img:hover{
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+}
+
+.project-informations h3{
+    margin: 0 0;
+    font-size: 30px;
+}
+
+.project-informations p{
+    font-size: 20px;
+}

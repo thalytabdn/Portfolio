@@ -55,6 +55,7 @@ h1 {
 }
 
 #down {
+    font-size: 50px important!;
     margin-top: 90vh;
     z-index: 5;
 }
