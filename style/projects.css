@@ -1,9 +1,10 @@
 .project {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    margin-block-start: 3em;   
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
     grid-gap: 5%;
 }
 
@@ -17,10 +18,6 @@
     background-color: #fff;
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
    
-}
-
-.project-img:hover{
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
 }
 
 .project-img img{
