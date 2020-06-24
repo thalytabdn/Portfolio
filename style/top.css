@@ -25,11 +25,11 @@ html, body{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .nav {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;    
 }
 
@@ -48,14 +48,14 @@ h1 {
 }
 
 .icon{
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
     margin: 0 auto;       
     text-rendering: optimizeLegibility;
 }
 
 #down {
-    font-size: 50px important!;
+    font-size: 40px important!;
     margin-top: 90vh;
     z-index: 5;
 }

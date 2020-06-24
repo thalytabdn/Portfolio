@@ -3,9 +3,8 @@
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
     padding-top: 5%;
-    grid-gap: 5%;
+    grid-gap: 3%;
 }
 
 .project-informations{
@@ -16,18 +15,20 @@
 .project-img{
     display: contents;
     background-color: #fff;
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 1);
    
 }
 
 .project-img img{
     max-width: 100%;
     height: auto;
+    padding-bottom: 20px;
 }
 
 .project-informations h3{
     margin: 0 0;
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .project-informations p{
