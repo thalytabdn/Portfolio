@@ -16,10 +16,16 @@
     display: contents;
     background-color: #fff;
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
+   
 }
 
 .project-img:hover{
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+}
+
+.project-img img{
+    max-width: 100%;
+    height: auto;
 }
 
 .project-informations h3{
