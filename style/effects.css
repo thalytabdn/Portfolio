@@ -39,3 +39,11 @@ html{
         animation: bounce 1.7s infinite;
         -webkit-animation: bounce 1.7s infinite;    
 }
+
+.shadow{
+        box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+}
+
+.shadow:hover{
+        box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+}

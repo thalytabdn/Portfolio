@@ -14,16 +14,12 @@
 
 .project-img{
     margin-bottom: 20px;
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
 }
 
 .project-img img{
     max-width: 100%;
-    height: auto;
-}
-
-.project-img:hover{
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
+    height: auto;   
+    cursor: pointer;
 }
 
 .project-informations h3{
