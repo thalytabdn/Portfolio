@@ -4,7 +4,7 @@
 
 ## 📝 Sobre
 
-É um template simples e responsivo de um portfolio.
+Um template simples e responsivo de um portfolio.
 
 <a id="tecnologias-utilizadas"></a>
 
