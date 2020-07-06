@@ -31,7 +31,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/thalytabdn/portfolio
+  $ git clone https://github.com/thalytabdn/Portfolio
 ```
 
 2. Executando a Aplicação:
