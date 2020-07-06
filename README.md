@@ -4,7 +4,7 @@
 
 ## 📝 Sobre
 
-O <strong>Portfolio</strong> é um template simples e responsivo de um portfolio.
+É um template simples e responsivo de um portfolio.
 
 <a id="tecnologias-utilizadas"></a>
 
