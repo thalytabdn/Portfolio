@@ -40,5 +40,5 @@ To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)*
   ---
   
 <h4 align="center">
-    Feito com 💓 by <a href="https://www.linkedin.com/in/thalytabdn/" target="_blank">Thalyta Barbosa</a>
+    Build with 💓 by <a href="https://www.linkedin.com/in/thalytabdn/" target="_blank">Thalyta Barbosa</a>
 </h4>
