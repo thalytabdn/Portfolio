@@ -19,7 +19,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ## :heavy_check_mark: Resultado:
 
 <h2 align="center">
-  <img src="assets/result.png" alt="Resultado" width="600px" />
+  <img src="assets/result.png" alt="Resultado" width="800px" />
   <br>
 </h2>
 
