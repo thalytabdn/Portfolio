@@ -30,20 +30,13 @@ To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)*
 
 ## ✨ How to use
 
-1. Faça um clone :
+1. Make a clone :
 
 ```sh
   $ git clone https://github.com/thalytabdn/Portfolio
 ```
 
-2. Executando a Aplicação:
-
-```sh
-
-  # Iniciar a aplicação web 
-  $ npm run dev
-
- ```
+2. Aadd your information in the index.html file
   ---
   
 <h4 align="center">
