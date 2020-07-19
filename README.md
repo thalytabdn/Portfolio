@@ -23,7 +23,8 @@ This project was developed using the following technologies
   <br>
 </h2>
 
-To view a demo example, **[click here] (https://thalytabdn.github.io/Portfolio/)**\
+To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)**
+
 
 <a id="how-to-use"></a>
 
