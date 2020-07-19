@@ -47,3 +47,7 @@ html{
 .shadow:hover{
         box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.6);
 }
+
+.load-hidden {
+        visibility: hidden;
+      }

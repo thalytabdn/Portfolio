@@ -18,7 +18,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :heavy_check_mark: Resultado:
 
-- Colocar print aqui 
+<h2 align="center">
+  <img src="assets/result.png" alt="Resultado" width="600px" />
+  <br>
+</h2>
 
 <a id="como-usar"></a>
 
