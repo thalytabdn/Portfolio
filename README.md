@@ -1,35 +1,33 @@
-# Portfolio
+# Portfolio :sparkles:
 
-<a id="sobre"></a>
+<a id="About"></a>
 
-## 📝 Sobre
+## 📝 About
 
-Um template simples e responsivo de um portfolio.
+A simple and responsive portfolio template.
 
-<a id="tecnologias-utilizadas"></a>
+<a id="used-technologies"></a>
 
-## :rocket: Tecnologias Utilizadas
+## :rocket: Used Technologies
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+This project was developed using the following technologies
 
 - HTML
 - CSS
 - JS
 
-## :heavy_check_mark: Resultado:
+## :heavy_check_mark: Result:
 
 <h2 align="center">
-  <img src="assets/result.png" alt="Resultado" width="600px" />
+  <img src="assets/result.png" alt="Resultado" width="800px" />
   <br>
 </h2>
 
-<a id="como-usar"></a>
+To view a demo example, **[click here] (https://thalytabdn.github.io/Portfolio/)
 
-## ✨ Como usar
+<a id="how-to-use"></a>
 
-- ### **Pré-requisitos**
-
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+## ✨ How to use
 
 1. Faça um clone :
 
