@@ -14,7 +14,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - HTML
 - CSS
-- Node.js
+- JS
 
 ## :heavy_check_mark: Resultado:
 
