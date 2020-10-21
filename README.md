@@ -36,7 +36,7 @@ To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)*
   $ git clone https://github.com/thalytabdn/Portfolio
 ```
 
-2. Aadd your information in the index.html file
+2. Add your information in the index.html file
   ---
   
 <h4 align="center">
