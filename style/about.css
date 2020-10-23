@@ -13,6 +13,7 @@ h1,h2,h3,p{
     background-image: -webkit-linear-gradient(135deg, #43B7B8, #436AAC, #8929AD);
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom:10px;
     border-top: 0;
     color: #fff;
 }
