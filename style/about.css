@@ -29,3 +29,62 @@ h1,h2,h3,p{
     margin-right: 15%;
     margin-left: 15%;
 }
+
+
+.cv-btn{
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cv-btn button{
+    outline: 0;
+    cursor: pointer;
+    margin: 0 auto;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background: rgb(67,106,172);
+    background: linear-gradient(90deg,  rgba(67,106,172,1) 0%, rgba(137,41,173,1)     35%, rgba(67,183,184,1) 100%);
+}
+
+
+.cv-btn .tooltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.cv-btn .tooltip::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+
+.cv-btn:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
