@@ -1,10 +1,31 @@
 # Portfolio :sparkles:
 
+To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)**
+
 <a id="About"></a>
 
 ## 📝 About
 
 A simple and responsive portfolio template.
+You need to open the index.html file and change anything that is wrapped with { }
+Ypu can follow the guide below.
+
+
+### Introduction
+<img src="assets/intro.png" alt="Intro" width="800px" />
+[Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L34)
+
+### About me
+<img src="assets/about-me.png" alt="About me" width="800px" />
+[Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L75)
+
+### SKills
+<img src="assets/skills.png" alt="Skills" width="800px" />
+[Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L90)
+
+### Projects
+<img src="assets/projects.png" alt="Projects" width="800px" />
+[Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L163)
 
 <a id="used-technologies"></a>
 
@@ -15,16 +36,6 @@ This project was developed using the following technologies
 - HTML
 - CSS
 - JS
-
-## :heavy_check_mark: Result:
-
-<h2 align="center">
-  <img src="assets/example.gif" alt="Resultado" width="800px" />
-  <br>
-</h2>
-
-To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)**
-
 
 <a id="how-to-use"></a>
 
@@ -45,7 +56,7 @@ To view a demo example, **[click here](https://thalytabdn.github.io/Portfolio/)*
     - improving the style
     - adding new feature
     - improving the documentation
-3. Push your work and create a Pull Request 
+3. Push your work and create a Pull Request
 
 ## License 📄
 
