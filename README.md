@@ -19,6 +19,11 @@ Ypu can follow the guide below.
 <img src="assets/about-me.png" alt="About me" width="800px" />
 [Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L75)
 
+
+Upload your Resume under asset folder as Resume.pdf : 
+
+[Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/assets/Resume.pdf)
+
 ### SKills
 <img src="assets/skills.png" alt="Skills" width="800px" />
 [Go to code] (https://github.com/thalytabdn/Portfolio/blob/master/index.html#L90)
