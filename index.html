@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Animation On Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link href="style/top.css" type="text/css" rel="stylesheet">
     <link href="style/effects.css" type="text/css" rel="stylesheet">
     <link href="style/skills.css" type="text/css" rel="stylesheet">
@@ -72,7 +75,7 @@
     </div>
 
     <!-- About section -->
-    <section class="section-style" id="about">
+    <section class="section-style" id="about" data-aos="fade-up">
         <div class="container">
             
             <h2 class="section-title">About me</h2>
@@ -99,7 +102,7 @@
     <!-- End of about section -->
 
     <!-- skills section -->
-    <section id="skills">
+    <section class="skills" data-aos="zoom-in">
         <div class="container">
 
             <h2 class="section-title">Skills</h2>
@@ -130,7 +133,7 @@
                 <div class="card shadow">
                     <div>
                         <img class="img-card" src="assets/js.svg" alt="logo java script">
-                        <p>Java Script</p>
+                        <p>JavaScript</p>
                     </div>
                 </div>
 
@@ -171,80 +174,74 @@
     </section>
     <!-- End of skills section -->
 
-    <!-- Projects section -->
-    <section  id="projects">
-        <div class="container">
+   <!-- Projects section -->
+   <section  id="projects">
+      <div class="container">
 
-            <h2 class="section-title">Projects</h2>
+         <h2 class="section-title">Projects</h2>
 
-            <div class="projects-main">
-                
-                <div class="project">
+         <div class="projects-main">
+				
+				<!-- Project Card Start -->
+				<div class="project">
+					<div class="project-informations" data-aos="fade-right">
+						<h3>Project title</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, quisquam. Suscipit maxime provident, fugiat odio quam praesentium earum, dolor adipisci voluptatibus nisi perspiciatis veritatis odit commodi quibusdam, voluptatem eaque possimus?</p>
+						
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+						<div class="wrapper">
+							<div class="link_wrapper">
+								<a href="#">View Project</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+											<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+					</div>
+					<div class="project-img" data-aos="fade-left">
+						<img class="shadow" src="assets/project1.jpg" alt="code">
+					</div>
+				</div>
+				<!-- Project Card End -->
 
-                    <div class="project-informations">
-           
-                        <h3>Project title</h3>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, quisquam. Suscipit maxime provident, fugiat odio quam praesentium earum, dolor adipisci voluptatibus nisi perspiciatis veritatis odit commodi quibusdam, voluptatem eaque possimus?</p>
-                        
-                        <!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
-                        <div class="wrapper">
-                            <div class="link_wrapper">
-                                <a href="#">View Project</a>
-                                <div class="project-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
-                                    </svg>
-                                </div>
-                            </div>      
-                        </div>
-                    </div>
+				<!-- Project Card Start -->
+            <div class="project">
+					<div class="project-informations" data-aos="fade-down">
+           			<h3>Project title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendis quos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?</p>
 
-                    <div class="project-img">
-                        <img class="shadow" src="assets/project1.jpg" alt="code">
-                    </div>
-
-                </div>
-
-                <div class="project">
-
-                    <div class="project-informations">
-           
-                        <h3>Project title</h3>
-    
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam veritatis iusto reiciendis quos, delectus in deserunt harum a. Rerum similique corporis sit odit error incidunt distinctio consectetur neque, cum illum?</p>
-
-                        <!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
-                        <div class="wrapper">
-                            <div class="link_wrapper">
-                                <a href="#">View Project</a>
-                                <div class="project-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                                        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
-                                    </svg>
-                                </div>
-                            </div>      
-                        </div>
-                    </div>
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+                  <div class="wrapper">
+							<div class="link_wrapper">
+								<a href="#">View Project</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+										<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+               </div>
+               <div class="project-img" data-aos="fade-up">
+                  <img class="shadow" src="assets/project1.jpg" alt="code">
+               </div>
                     
-                    <div class="project-img">
-                        <img class="shadow" src="assets/project1.jpg" alt="code">
-                    </div>
-                    
-                </div>
+				</div>
+				<!-- Project Card End -->
 
-                </div>
+         </div>
 
-            </div>
+      </div>
 
-        </div>
-    </section>
+   </section>
     <!-- End of projects section -->
 
     <a title="Go to top"
         class="icon gradient fade"
         style="visibility: hidden;"
-        id="top-button"
+        id="f-button"
         onclick="topFunction()"
     >
         <i class="fa fa-angle-double-up"></i>
@@ -263,6 +260,9 @@
 
     </footer>
 
+    <!-- Animation On Scroll Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
         topButton = document.getElementById("top-button");
 
@@ -280,6 +280,12 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+    // Animation On Scroll Library
+       AOS.init({
+			 offset: 250,
+			 duration: 1000
+		 });
 
     </script>
     
