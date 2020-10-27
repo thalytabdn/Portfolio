@@ -42,10 +42,15 @@
   cursor: pointer;
 }
 
+.project:nth-of-type(2n) .project-informations {
+  order: 2;
+}
+
 .project-informations h3 {
   margin: 0 0;
   font-size: 20px;
   padding-top: 10px;
+  text-transform: uppercase;
 }
 
 .project-informations p {
