@@ -102,7 +102,7 @@
     <!-- End of about section -->
 
     <!-- skills section -->
-    <section class="skills" data-aos="zoom-in">
+    <section id="skills" class="skills" data-aos="zoom-in">
         <div class="container">
 
             <h2 class="section-title">Skills</h2>
@@ -241,7 +241,7 @@
     <a title="Go to top"
         class="icon gradient fade"
         style="visibility: hidden;"
-        id="f-button"
+        id="top-button"
         onclick="topFunction()"
     >
         <i class="fa fa-angle-double-up"></i>
@@ -264,9 +264,9 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-        topButton = document.getElementById("top-button");
+        var topButton = document.getElementById("top-button");
 
-        window.onscroll = function() {scrollFunction()};
+        document.addEventListener("scroll", scrollFunction);
 
         function scrollFunction(){
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
@@ -277,7 +277,6 @@
         }
 
         function topFunction(){
-            document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
 
