@@ -51,3 +51,70 @@
 .project-informations p {
   font-size: 20px;
 }
+
+
+/*
+=============================
+View Project Button
+=============================
+*/
+.wrapper{
+    margin-bottom: 100px;
+    position: absolute;
+}
+
+.link_wrapper a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #fff;
+    text-align: center;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #555;
+    transition: all .35s;
+}   
+
+.project-icon{
+    width: 40px;
+    height: 40px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+}
+
+.project-icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #333;
+    transition: all .35s;
+}
+
+.link_wrapper a:hover{
+    width: 200px;
+    border: 3px solid #333;
+    background: transparent;
+    color: #333;
+}
+
+.link_wrapper a:hover + .project-icon{
+    border: 3px solid #333;
+    right: -18%;
+}
+
+@media(max-width: 960px) {
+    .project-img {
+        margin-top: 40px;
+    }
+}
