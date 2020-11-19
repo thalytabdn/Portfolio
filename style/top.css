@@ -35,18 +35,11 @@ h1 {
     margin-top: 40px;    
 }
 
-.nav .btn:hover {
-    background-color: #5758AD;
-    color: #fff;
-}
-
 .btn{
     color: #272341;
-    padding: 15px 30px;
     line-height: 1.6rem;
     cursor: pointer;
     text-decoration: none; 
-    border: 1px solid #5758AD;
     margin: 1rem;   
     border-radius: 5px;
 }
