@@ -20,7 +20,9 @@ html {
   border-color: linear-gradient(135deg, #8929ad, #436aac, #43b7b8);
   border: none;
 }
-
+.gradient:hover{
+  color: #ffa62b;
+}
 .fade:hover {
   opacity: 0.5;
 }
